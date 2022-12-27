@@ -9,6 +9,7 @@ pipeline {
                 script {
                         echo "INFO: Build Stage"
                         sleep 30
+                        ech "INFO: Build Stage Fail"
                         properties([
 
                             parameters([
